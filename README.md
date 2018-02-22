@@ -1,6 +1,6 @@
-# openapphack-shell
-Sub project of OpenAppHack, shell for openapphack
+# oah-shell
+Shell for openapphack
 
 # Installation
 
-use oah-installer
+Use oah-installer to install oah-shell

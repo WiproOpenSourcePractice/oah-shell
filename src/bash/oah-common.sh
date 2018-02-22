@@ -2,6 +2,8 @@
 
 #
 # common internal function definitions
+# TODO fix support version specific environments installation
+# ignore version folder if missing ln the candidate folder as the current environment
 #
 
 function __oah_check_candidate_present {
@@ -73,7 +75,7 @@ function __oah_default_environment_variables {
 	if [[ "${OAH_ONLINE}" == "false" || "${OAH_FORCE_OFFLINE}" == "true" ]]; then
 		OAH_AVAILABLE="false"
 	else
-	  	OAH_AVAILABLE="true"
+	  OAH_AVAILABLE="true"
 	fi
 }
 
